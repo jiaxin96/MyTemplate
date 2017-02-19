@@ -14,7 +14,7 @@
 		for (int i : step) {
 
 
-			t = eval();
+			t = min_val();
 
 			if (t > alpha) {
 				alpha = t;
@@ -50,7 +50,7 @@
 		for (int i : step) {
 
 
-			t = eval();
+			t = max_val();
 
 			if (t < beta) {
 				beta = t;
